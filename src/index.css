@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-family: 'Geist Mono', 'Fira Code', ui-monospace, monospace;
+}
+
+::selection {
+  background: #333;
+  color: #f0f0f0;
+}
