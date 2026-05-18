@@ -16,13 +16,10 @@ export default function Home({ onNavigate }) {
         <p className="animate-fade-in-d2 opacity-0 text-[#777] text-[0.78rem] mb-1">
           Análise e Desenvolvimento de Sistemas
         </p>
-        <p className="animate-fade-in-d2 opacity-0 text-[#777] text-[0.78rem] mb-1">
-          Análise e Desenvolvimento de Sistemas
-        </p>
 
         {/* Role + GitHub */}
         <p className="animate-fade-in-d3 opacity-0 text-[#777] text-[0.78rem] mb-8">
-          Programador Full Stack [
+          Programador Full Stack, Java, Python, Node [
           <a
             href="https://github.com/iscaio"
             target="_blank"

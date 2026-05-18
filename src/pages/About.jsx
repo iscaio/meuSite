@@ -1,25 +1,28 @@
 const projects = [
   {
-    name: "Projeto 01",
-    description: "Descrição breve do projeto",
-    url: "https://github.com/iscaio",
+    name: "Restaurante API (Gestão de Operações)",
+    description:
+      "Arquitetura de uma API para automação comercial, focada no gerenciamento de fluxo de pedidos, controle de estoque de pratos e cadastro de usuários.",
+    url: "https://github.com/iscaio/RestauranteAPI",
   },
   {
-    name: "Projeto 02",
-    description: "Descrição breve do projeto",
-    url: "https://github.com/iscaio",
+    name: "Sistema de Autenticação & CRUD Segura",
+    description:
+      "Desenvolvimento de uma plataforma com foco em segurança da informação, utilizando autenticação via JWT (JSON Web Token, bcrypt).",
+    url: "https://github.com/iscaio/Login-Node-CRUD",
   },
   {
-    name: "Projeto 03",
-    description: "Descrição breve do projeto",
-    url: "https://github.com/iscaio",
+    name: "E-commerce Nexari (Full Stack):",
+    description:
+      "Desenvolvimento de uma plataforma completa de comércio eletrônico integrando Frontend em React e Backend em Spring Boot. Autenticação segura, persistência de dados com MySQL e integração de CORS para comunicação entre serviços.",
+    url: "https://github.com/iscaio/ecommerce_nexari",
   },
 ];
 
 const courses = [
-  "Análise e Desenvolvimento de Sistemas — [instituição]",
-  "Certificação / Curso 01 — [plataforma]",
-  "Certificação / Curso 02 — [plataforma]",
+  "Análise e Desenvolvimento de Sistemas — [UniFacisa]]",
+  "Administração de Empresas — [Nassau]",
+  "Engenharia de Prompt — [Rockset]",
 ];
 
 export default function About({ onNavigate }) {
@@ -59,17 +62,21 @@ export default function About({ onNavigate }) {
         {/* História */}
         <Section label="História">
           <p className="text-[0.76rem] text-[#666] leading-[1.85]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cresci em
-            Campina Grande fascinado por tecnologia e resolução de problemas.
-            Comecei a programar cedo e nunca parei — cada projeto é uma
-            oportunidade de aprender algo novo e construir coisas que fazem
-            sentido para as pessoas.
+            Desenvolvedor de Software em transição de carreira, integrando
+            sólida visão estratégica de negócios e empreendedorismo ao
+            desenvolvimento técnico. Bacharel em Administração e graduando em
+            Análise e Desenvolvimento de Sistemas, com foco em Engenharia de
+            Software. Atualmente, desenvolvo APIs RESTful e sistemas web
+            escaláveis utilizando Java (Spring Boot), Node.js e Python.
+            Especialista em traduzir requisitos complexos de negócio em soluções
+            tecnológicas funcionais, com experiência em gestão de projetos e
+            metodologias ágeis.
           </p>
           <p className="text-[0.76rem] text-[#666] leading-[1.85] mt-4">
-            Atualmente curso Análise e Desenvolvimento de Sistemas e atuo como
-            desenvolvedor full stack, trabalhando com projetos que vão do front
-            ao banco de dados. Acredito que bom código é aquele que resolve o
-            problema e é fácil de manter.
+            Atualmente cursando Análise e Desenvolvimento de Sistemas e atuo
+            como desenvolvedor full stack, trabalhando com projetos que vão do
+            front ao banco de dados. Acredito que bom código é aquele que
+            resolve o problema e é fácil de manter.
           </p>
         </Section>
 
@@ -98,6 +105,31 @@ export default function About({ onNavigate }) {
               </li>
             ))}
           </ul>
+        </Section>
+
+        <Divider />
+
+        {/* experiencia */}
+
+        <Section label="Experiência Profissional">
+          <p className="text-[0.76rem] text-[#666] leading-[1.85] mt-4">
+            Proprietário e Gestor | IscaioWedding (Fotografia Profissional)
+          </p>
+
+          <p className="text-[0.76rem] text-[#666] leading-[1.85]">
+            Gestão de Ciclo de Vida: Responsável pelo gerenciamento de ponta a
+            ponta de projetos fotográficos, desde a prospecção e contrato até a
+            entrega final sob prazos rigorosos.
+          </p>
+          <p className="text-[0.76rem] text-[#666] leading-[1.85] mt-4">
+            Otimização de Processos: Implementação de fluxos de trabalho
+            digitais e automação básica de contratos para aumentar a eficiência
+            operacional da marca.
+          </p>
+          <p className="text-[0.76rem] text-[#666] leading-[1.85] mt-4">
+            Soft Skills: Negociação direta com clientes, resolução de problemas
+            em tempo real e gestão de marca.
+          </p>
         </Section>
 
         <Divider />
