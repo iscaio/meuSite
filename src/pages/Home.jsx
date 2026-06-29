@@ -34,7 +34,7 @@ export default function Home({ onNavigate }) {
         {/* Ações */}
         <div className="animate-fade-in-d4 opacity-0 flex items-center gap-4">
           <button
-            onClick={() => onNavigate("about")}
+            onClick={() => onNavigate("portfolio")}
             className="text-[0.78rem] text-[#d4d4d4] border-b border-[#444] hover:text-white hover:border-[#999] transition-colors duration-150 bg-transparent cursor-pointer"
           >
             Saiba mais
